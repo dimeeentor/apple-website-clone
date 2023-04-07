@@ -1,4 +1,4 @@
-import styles from "./navElement.module.scss"
+import styles from "./styles.module.scss"
 
 import { FC } from "react"
 import Link from "next/link"

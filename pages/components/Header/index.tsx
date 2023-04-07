@@ -1,4 +1,4 @@
-import styles from "./header.module.scss"
+import styles from "./styles.module.scss"
 import { FC, ReactNode } from "react"
 
 type Header = {

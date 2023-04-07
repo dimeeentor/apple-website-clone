@@ -1,5 +1,6 @@
-import Header from "./components/Header/header"
-import NavElement from "./components/NavElement/navElement"
+import Header from "./components/Header"
+import HintBlock from "./components/HintBlock"
+import NavElement from "./components/NavElement"
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
                 <NavElement name="Accessoires" />
                 <NavElement name="Support" />
             </Header>
+            <HintBlock />
         </main>
     )
 }
