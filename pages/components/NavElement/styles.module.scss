@@ -1,0 +1,16 @@
+.navBlock {
+    list-style: none;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.navElement {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        opacity: 1;
+    }
+}

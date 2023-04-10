@@ -1,0 +1,25 @@
+.hintBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.shopIphone,
+.footnote {
+    text-decoration: none;
+    color: #06c;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.footnote {
+    vertical-align: super;
+    font-size: 10px;
+    padding-right: 0.1rem;
+}
